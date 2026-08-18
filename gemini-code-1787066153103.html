@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Tienda de Productos</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f4f4f9; }
+        h1 { text-align: center; color: #333; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; background: white; }
+        th, td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }
+        th { background-color: #2c3e50; color: white; }
+        .btn-amazon { 
+            background-color: #ff9900; color: white; padding: 8px 15px; 
+            text-decoration: none; border-radius: 5px; font-weight: bold; 
+        }
+        .btn-amazon:hover { background-color: #e68a00; }
+    </style>
+</head>
+<body>
+
+    <h1>Catálogo de Productos</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+                <th>Acción</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- COPIA ESTA LÍNEA POR CADA PRODUCTO NUEVO -->
+            <tr>
+                <td>Nombre de tu producto</td>
+                <td>$0.00</td>
+                <td><a href="LINK_DE_TU_PRODUCTO_EN_AMAZON" class="btn-amazon" target="_blank">Comprar en Amazon</a></td>
+            </tr>
+            <!-- FIN DE LÍNEA DE PRODUCTO -->
+        </tbody>
+    </table>
+
+</body>
+</html>
